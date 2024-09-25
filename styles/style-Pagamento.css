@@ -1,0 +1,101 @@
+/*logo*/
+.LOGO {
+    width: 200px;
+    height: 200px;
+}
+
+body{
+    background-color: rgb(237, 237, 237);
+}
+section {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.inputClass{
+    margin: 0px 0px 0px 150px
+}
+
+.labelPag{
+    margin: 0px 0px -65px 0px
+}
+
+#trocoSection{
+    margin: 20px 0px 0px 3em;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+
+/*Botão*/
+.botao {
+    background: rgb(238, 204, 70);
+    color: rgb(31, 68, 61);
+    width: 120px;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+.botano {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px 0px 60px;
+    width: 200px;
+}
+
+#valorTroco {
+    width: 300px;
+}
+
+/* Para navegadores modernos que suportam o seletor ::placeholder */
+::placeholder {
+    color: #ff0303;
+    /* Substitua pela cor desejada */
+}
+
+/* Para navegadores mais antigos que suportam apenas o seletor ::-webkit-input-placeholder */
+:-webkit-input-placeholder {
+    color: #ff0303;
+    /* Substitua pela cor desejada */
+}
+
+/* Para navegadores mais antigos que suportam apenas o seletor ::-moz-placeholder */
+:-moz-placeholder {
+    color: #ff0303;
+    /* Substitua pela cor desejada */
+}
+
+/* Para navegadores mais antigos que suportam apenas o seletor :-ms-input-placeholder */
+:-ms-input-placeholder {
+    color: #ff0303;
+    /* Substitua pela cor desejada */
+}
+
+h1 {
+    margin: 40px 0px 50px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(31, 68, 61);
+}
+

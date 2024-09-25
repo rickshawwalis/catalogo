@@ -1,0 +1,173 @@
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+body{
+  background: rgb(237, 237, 237); 
+}
+
+.sectionControle {
+  background: rgb(237, 237, 237);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 450px;
+}
+
+
+/*Botão*/
+
+.linkAvancar {
+  background: rgb(238, 204, 70);
+    color: rgb(31, 68, 61);
+    width: 120px;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botano {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+margin-bottom: 50px;
+}
+
+/*mexe na cor do botao maisItens*/
+.linkMaisItens {
+  color: rgb(31, 68, 61);
+  ;
+}
+
+h1 {
+  margin: 40px 0px 50px 30px;
+  color: rgb(31, 68, 61);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*mexe no texto dentro das div*/
+p {
+  margin: 0px 0px 0px 20px;
+
+}
+
+/*mexe no conteúdo dentro da div mercadoria*/
+.mercadoria {
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px 0px;
+  position: relative;
+  /* Adicionado para que .excluirItem seja posicionado em relação a este elemento */
+  border: 1px solid rgb(255, 226, 83);
+  width: 350px;
+font-size: 14px;
+  margin: 10px 0 0 3%;
+  padding-bottom: 30px;
+
+}
+
+/*mexe no texto dentro da div conteudo*/
+.conteudo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*mexe no texto valorGeral*/
+.valor {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  width: 270px;
+  height: 35px;
+  margin: 40px 0px 0px 50px;
+  background-color: rgb(255, 226, 83);
+  color: rgb(31, 68, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*mexe no botão excluir*/
+.excluirItem {
+  display: flex;
+  position: absolute;
+  background: none;
+  color: #ff0000;
+  border: none;
+  top: 35px;
+  /* Ajuste a distância do topo conforme necessário */
+  right: 10px;
+  /* Ajuste a distância da direita conforme necessário */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.botaoMais {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: rgb(31, 68, 61);
+  font-size: 15px;
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  /* Ajuste a distância do topo conforme necessário */
+  right: 220px;
+  /* Ajuste a distância da direita conforme necessário */
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.botaoMenos {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: rgb(31, 68, 61);
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  /* Ajuste a distância do topo conforme necessário */
+  right: 290px;
+
+  /* Ajuste a distância da direita conforme necessário */
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+
+.displayQuantidade {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  /* Ajuste a distância do topo conforme necessário */
+  right: 250px;
+  /* Ajuste a distância da direita conforme necessário */
+  font-weight: 900;
+}

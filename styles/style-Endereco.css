@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.PTexto{
+    color: rgb(31, 68, 61);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body {
+    background-color: rgb(237, 237, 237);
+    height: 1200px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+.CaixasAcompanhamentos {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 430px;
+
+}
+
+.tituloeNDEREÇO {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(31, 68, 61);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Botão*/
+.acompanhamento {
+    background: rgb(255, 226, 83);
+    color: rgb(31, 68, 61);
+    width: 120px;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  cursor: pointer;
+}
+
+.bota2{
+    margin-bottom: 50px;
+}
+
+.botano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.retirada {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    height: 100px;
+    gap: 20px;
+}
+
+
+/*logo*/
+.LOGO {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}

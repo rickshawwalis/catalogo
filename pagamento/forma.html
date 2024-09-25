@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIDER AÇAÍ</title>
+    <link rel="stylesheet" href="../styles/style-Pagamento.css">
+    <script src="../script/pagamento.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <img src="../img/logo.jpeg" alt="" class="LOGO">
+        <h1>FORMA DE PAGAMENTO</h1>
+        <div class="formulario">
+            <br><br>
+            
+            <label for="" class="labelPag">PIX</label>
+            <input type="radio" class="inputClass" name="pagamento" id="pix" value="PIX">
+           
+            <label for="" class="labelPag">DINHEIRO</label>
+            <input type="radio" class="inputClass" name="pagamento" id="dinheiro" value="DINHEIRO">
+            
+            <label for="" class="labelPag">CARTÃO</label>
+            <input type="radio" class="inputClass" name="pagamento" id="cartaoCredito" value="CARTÃO">
+           
+        </div>
+
+        <div id="trocoSection" style="display: none;">
+            <label for="valorTroco"><strong>Troco para quanto? (R$):</strong></label>
+            <input type="text" id="valorTroco" name="valorTroco"
+                placeholder="Informe se precisa de troco e para quanto">
+        </div>
+     
+        <div class="botano">
+            <button type="button" class="botao" id="Fpagamento">
+                CONCLUIR
+            </button>
+        </div>
+    </section>
+</body>
+
+</html>
